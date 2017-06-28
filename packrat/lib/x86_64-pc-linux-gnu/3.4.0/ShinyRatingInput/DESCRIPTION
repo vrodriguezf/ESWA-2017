@@ -1,0 +1,22 @@
+Package: ShinyRatingInput
+Type: Package
+Title: A Rating Input Widget for Shiny
+Version: 1.1
+Date: 2017-01-08
+Author: Stefan Wilhelm
+Maintainer: Stefan Wilhelm <wilhelm@financial.com>
+Description: ShinyRatingInput builds a rating input widget based on the
+    library "bootstrap-rating" from
+    http://dreyescat.github.io/bootstrap-rating/ to be used in Shiny
+    apps.
+License: MIT + file LICENSE
+Depends: R (>= 2.14.1)
+Imports: shiny (>= 0.10.1)
+GithubRepo: ShinyRatingInput
+GithubUsername: stefanwilhelm
+GithubRef: master
+GithubSHA1: 0dc69c9766453f3cd38cbb89b08fe421b829e9b0
+Built: R 3.4.0; ; 2017-06-27 15:58:04 UTC; unix
+InstallAgent: packrat 0.4.8.1
+InstallSource: github
+Hash: bb7b9ce0756dfdb3705949e4dda9d8a6

@@ -1,0 +1,41 @@
+{
+	"id" : 1,
+	"incidents" : [
+		{
+			"id" : 0,
+			"startTime" : 28000,
+			"level" : "CAUTION",			
+			"type" : "DangerArea",
+			"message" : "Áparición de área peligrosa!",			
+			"endTime" : 80000,
+			"area" : {
+					"vertices" : [
+						{
+							"x" : 75,
+							"y" : -300
+						},
+						{
+							"x" : 130,
+							"y" : -300
+						},
+						{
+							"x" : 130,
+							"y" : -400
+						},
+						{
+							"x" : 75,
+							"y" : -400
+						}						
+					]
+				}
+		},
+		{
+			"id" : 1,
+			"startTime" : 1300,
+			"level" : "WARNING",
+			"type" : "PayloadIncident",
+			"message" : "Se han detectado problemas en los sensores de un dron",
+			"droneId" : 1
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"id" : 3,
+	"incidents" : [
+		{
+			"id" : 0,
+			"startTime" : 8000,
+			"level" : "CAUTION",			
+			"type" : "DangerArea",
+			"message" : "Se ha detectado una tormenta peligrosa en el entorno de vuelo",			
+			"endTime" : 20000,
+			"area" : {
+					"vertices" : [
+						{
+							"x" : 75,
+							"y" : -300
+						},
+						{
+							"x" : 130,
+							"y" : -300
+						},
+						{
+							"x" : 130,
+							"y" : -400
+						},
+						{
+							"x" : 75,
+							"y" : -400
+						}						
+					]
+				}
+		},
+		{
+			"id" : 1,
+			"startTime" : 1000,
+			"level" : "WARNING",
+			"type" : "PayloadIncident",
+			"message" : "Se han detectado problemas en los sensores. Dirija el dron al aeropuerto más cercano",
+			"droneId" : 1
+		},
+		{
+			"id" : 2,
+			"startTime" : 2000,
+			"level" : "CAUTION",			
+			"type" : "DangerArea",
+			"message" : "Se ha detectado una tormenta peligrosa en el entorno de vuelo",			
+			"endTime" : 60000,
+			"area" : {
+					"vertices" : [
+						{
+							"x" : 525,
+							"y" : -303
+						},
+						{
+							"x" : 600,
+							"y" : -303
+						},
+						{
+							"x" : 600,
+							"y" : -35
+						},
+						{
+							"x" : 525,
+							"y" : -35
+						}						
+					]
+				}
+		},
+		{
+			"id" : 3,
+			"startTime" : 4000,
+			"level" : "CAUTION",			
+			"type" : "DangerArea",
+			"message" : "Área de peligro!",			
+			"endTime" : 70000,
+			"area" : {
+					"vertices" : [
+						{
+							"x" : 315,
+							"y" : -265
+						},
+						{
+							"x" : 390,
+							"y" : -265
+						},
+						{
+							"x" : 390,
+							"y" : -380
+						},
+						{
+							"x" : 315,
+							"y" : -380
+						}						
+					]
+				}
+		}
+	]
+}

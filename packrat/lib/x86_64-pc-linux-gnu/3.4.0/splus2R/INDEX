@@ -1,0 +1,42 @@
+MC                      Make Closure for functions
+allTrue                 Test whether all expressions return TRUE
+anyMissing              Returns TRUE if missing values are round,
+                        otherwise FALSE
+as.rectangular          Covnert to rectangular object
+asSeriesData            Convert to a seriesData
+bits.per.integer        Internal Size of an integer
+colIds                  Column and row summary function
+deparseText             Deparses input argument
+do.test                 Test Functions and Expressions - for automated
+                        testing
+expectStop              Test whether expected stop() or warning()
+                        messages are produced.
+ifelse1                 Conditional Data Selection
+is.inf                  Infinite
+is.missing              Check for missing values
+is.number               Check Values
+is.orderable            If a value can be ordered
+is.rectangular          Checks for object rectangularity
+isNumericAtomicVector   Tests whether an object is a vector or not
+lowerCase               Case conversion
+nDotArgs                Determine Number of Arguments to Function
+numCols                 Object dimensions
+numericSequence         Constructor for numericSequence Class
+numericSequence-methods
+                        Methods for class signalSeries in package
+                        splus2R
+oldUnclass              Class conversion
+peaks                   Local maxima
+positions               Positions of signalSeries objects
+rmvnorm                 Multivariate Normal (Gaussian) Distribution
+seriesData              Access Data Of series Objects
+seriesDataNew           Creates template for new seriesData object
+seriesDataValid         Validates the structure of seriesData object
+showStructure           Describe the structure of an object
+signalSeries            Constructor function for the signalSeries class
+signalSeries-methods    Methods for class signalSeries in package
+                        splus2R
+stdev                   Standard deviation
+subscript2d             Uniform Rectangular Data Subscripting Function
+vecnorm                 p-norm of a vector
+which.na                Determine Which Values are Missing Values

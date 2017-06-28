@@ -1,0 +1,9 @@
+condentropy             conditional entropy computation
+condinformation         conditional mutual information computation
+discretize              Unsupervized Data Discretization
+entropy                 entropy computation
+infotheo                Information Theory package
+interinformation        interaction information computation
+multiinformation        multiinformation computation
+mutinformation          mutual information computation
+natstobits              convert nats into bits

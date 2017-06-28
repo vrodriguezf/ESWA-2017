@@ -1,0 +1,16 @@
+K4                      Kernel characteristics
+Kernels                 Kernels.
+PRDenEstC               Parzen-Rosenblatt denstiy estimator.
+bivDens                 Bivariate Local estimation.
+computeRK               Compute kernel values.
+cteNuK                  Kernel Constants used in Bandwidth Selection.
+denCVBwSelC             CV bandwidth selector for density
+equivKernel             Equivalent Kernel.
+locCteSmootherC         Local Polynomial estimation.
+locCteWeightsC          Local Polynomial Weights
+locpol                  Local Polynomial estimation.
+pluginBw                Plugin Bandwidth selector.
+regCVBwSelC             Cross Validation Bandwidth selector.
+selKernel               Kernel selection.
+simpleSmootherC         Simple smoother
+thumbBw                 Rule of thumb for bandwidth selection.

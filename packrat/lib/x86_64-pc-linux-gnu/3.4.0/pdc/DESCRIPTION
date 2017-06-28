@@ -1,0 +1,23 @@
+Package: pdc
+Type: Package
+Title: Permutation Distribution Clustering
+Version: 1.0.3
+Date: 2015-09-28
+Author: Andreas M. Brandmaier
+Maintainer: Andreas M. Brandmaier <brandmaier@mpib-berlin.mpg.de>
+Description: Permutation Distribution Clustering is a clustering method
+    for time series. Dissimilarity of time series is formalized as the
+    divergence between their permutation distributions. The permutation
+    distribution was proposed as measure of the complexity of a time
+    series.
+License: GPL (>= 3)
+Imports: stats, utils, grDevices, graphics
+Suggests: plotrix, lattice
+NeedsCompilation: yes
+Packaged: 2015-09-28 12:31:31 UTC; brandmaier
+Repository: CRAN
+Date/Publication: 2015-09-28 17:02:34
+Built: R 3.4.0; x86_64-pc-linux-gnu; 2017-06-27 17:36:18 UTC; unix
+InstallAgent: packrat 0.4.8.1
+InstallSource: CRAN
+Hash: 4f53c25ad5fb8a1bce3ad1f367d5ae9e

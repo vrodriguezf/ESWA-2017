@@ -1,0 +1,13 @@
+useDynLib(splus2R)
+import(graphics, stats, methods)
+exportPattern(".*")
+S3method(plot, signalSeries)
+S3method(as.data.frame, signalSeries)
+S3method(as.matrix, signalSeries)
+S3method(deltat, signalSeries)
+S3method(diff, signalSeries)
+S3method(cumsum, signalSeries)
+S3method(subscript2d, default)
+
+exportClasses(signalSeries)
+exportMethods(as.vector)

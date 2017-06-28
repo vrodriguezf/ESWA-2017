@@ -1,0 +1,14 @@
+splus2R News
+
+Changes in splus2R 1.2-0
+
+* A new version of the peaks function that uses the Fortran code from
+  S-PLUS was added. Huge Mildenberger (Hugo.Mildenberger@web.de) noted
+  that the previous version could give incorrect values due to the
+  default random handling of ties.  The old version did also did
+  not respect the strict argument.
+
+* Minor help file edits.
+
+
+

@@ -1,0 +1,371 @@
+{
+    "id": 3,
+    "flight_plan": [
+        {
+            "uavs_id": 1,
+            "waypoints": [
+                {
+                    "type": "take-off",
+                    "x": 300,
+                    "y": -25,
+                    "altitude": 0,
+                    "speed": 120,
+                    "time": 0
+                },
+                {
+                    "type": "route",
+                    "x": 220,
+                    "y": -70,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 10200
+                },
+                {
+                    "type": "route",
+                    "x": 178,
+                    "y": -190,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 22740
+                },
+                {
+                    "type": "refueling",
+                    "x": 320,
+                    "y": -190,
+                    "altitude": 0,
+                    "speed": 0,
+                    "time": 35280,
+                    "tasks_id": "r1"
+                },
+                {
+                    "type": "route",
+                    "x": 320,
+                    "y": -190,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 35291
+                },
+                {
+                    "type": "action",
+                    "x": 360,
+                    "y": -200,
+                    "altitude": 5,
+                    "speed": 120,
+                    "time": 36491,
+                    "tasks_id": 1
+                },
+                {
+                    "type": "route",
+                    "x": 140,
+                    "y": -360,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 57412
+                },
+                {
+                    "type": "refueling",
+                    "x": 25,
+                    "y": -300,
+                    "altitude": 0,
+                    "speed": 0,
+                    "time": 62632,
+                    "tasks_id": "r2"
+                },
+                {
+                    "type": "route",
+                    "x": 25,
+                    "y": -300,
+                    "altitude": 0,
+                    "speed": 100,
+                    "time": 62643
+                },
+                {
+                    "type": "route",
+                    "x": 70,
+                    "y": -40,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 71283
+                },
+                {
+                    "type": "land",
+                    "x": 300,
+                    "y": -25,
+                    "altitude": 0,
+                    "speed": 90,
+                    "time": 81723
+                }
+            ]
+        },
+        {
+            "uavs_id": 2,
+            "waypoints" : [
+                {
+                    "type": "take-off",
+                    "x": 66,
+                    "y": -438,
+                    "altitude": 0,
+                    "speed": 120
+                },
+                {
+                    "type": "action",
+                    "x": 140,
+                    "y": -360,
+                    "altitude": 5,
+                    "speed": 100,
+                    "tasks_id" : "surveillance_uav_2_area_1"
+                },
+                {
+                    "type": "route",
+                    "x": 360,
+                    "y": -239,
+                    "altitude": 0,
+                    "speed": 120
+                },
+                {
+                    "type": "refueling",
+                    "x": 453,
+                    "y": -291,
+                    "altitude": 0,
+                    "speed": 120
+                },
+                {
+                    "type": "action",
+                    "x": 557,
+                    "y": -282,
+                    "altitude": 5,
+                    "speed": 100,
+                    "tasks_id" : "surveillance_uav_2_area_2"
+                },
+                {
+                    "type": "route",
+                    "x": 700,
+                    "y": -87,
+                    "altitude": 0,
+                    "speed": 120
+                },
+                {
+                    "type": "refueling",
+                    "x": 755,
+                    "y": -147,
+                    "altitude": 0,
+                    "speed": 120
+                },
+                {
+                    "type": "route",
+                    "x": 770,
+                    "y": -402,
+                    "altitude": 0,
+                    "speed": 120
+                },                
+                {
+                    "type" : "land",
+                    "x" : 687,
+                    "y" : -442
+                }
+            ]            
+        },
+        {
+            "uavs_id" : 3,
+            "waypoints" : [
+                {
+                    "type" : "take-off",
+                    "x" : 687,
+                    "y" : -442,
+                    "speed" : 100
+                },
+                {
+                    "type" : "route",
+                    "x" : 590,
+                    "y" : -405,
+                    "speed" : 100
+                },
+                {
+                    "type" : "action",
+                    "x" : 580,
+                    "y" : -350,
+                    "speed" : 100,
+                    "tasks_id" : "surveillance_uav_3_area_2"
+                },
+                {
+                    "type" : "route",
+                    "x" : 675,
+                    "y" : -60,
+                    "speed" : 100                    
+                },
+                {
+                    "type" : "refueling",
+                    "x" : 755,
+                    "y" : -147,
+                    "speed" : 100 
+                },
+                {
+                    "type" : "route",
+                    "x" : 770,
+                    "y" : -400,
+                    "speed" : 100                    
+                },
+                {
+                    "type" : "land",
+                    "x" : 687,
+                    "y" : -442,
+                    "speed" : 100
+                }
+            ]
+        }
+    ],
+    "payload_plan": [
+        {
+            "tasks_id": "r1",
+            "task_type": "refueling",
+            "refueling_stations_id": 1,
+            "uavs_id": 1,
+            "start_time": 16562,
+            "duration": 19,
+            "end_time": 16576
+        },
+        {
+            "tasks_id": 1,
+            "task_type": "surveillance",
+            "areas_id": 1,
+            "uavs_id": 1,
+            "start_time": 19893,
+            "duration": 32996,
+            "end_time": 52889,
+            "area_waypoints": [
+                {
+                    "x": 335,
+                    "y": -227,
+                    "altitude": 5,
+                    "speed": 120,
+                    "time": 37552
+                },
+                {
+                    "x": 165,
+                    "y": -227,
+                    "altitude": 8,
+                    "speed": 120,
+                    "time": 42652
+                },
+                {
+                    "x": 335,
+                    "y": -281,
+                    "altitude": 8,
+                    "speed": 120,
+                    "time": 43852
+                },
+                {
+                    "x": 165,
+                    "y": -281,
+                    "altitude": 8,
+                    "speed": 120,
+                    "time": 48952
+                },
+                {
+                    "x": 335,
+                    "y": -335,
+                    "altitude": 8,
+                    "speed": 120,
+                    "time": 50152
+                },
+                {
+                    "x": 165,
+                    "y": -335,
+                    "altitude": 5,
+                    "speed": 100,
+                    "time": 55252
+                }
+            ]
+        },
+        {
+            "tasks_id": "r2",
+            "task_type": "refueling",
+            "refueling_stations_id": 1,
+            "uavs_id": 1,
+            "start_time": 59753,
+            "duration": 11,
+            "end_time": 59773
+        },
+        {
+            "tasks_id" : "surveillance_uav_2_area_1",
+            "task_type" : "surveillance",
+            "areas_id" : 1,
+            "uavs_id" : 2,
+            "start_time": 19893,
+            "duration": 32996,
+            "end_time": 52889,            
+            "area_waypoints" : [
+                {
+                    "x": 175,
+                    "y": -213,
+                    "altitude": 5,
+                    "speed": 100                    
+                },
+                {
+                    "x": 202,
+                    "y": -342,
+                    "altitude": 5,
+                    "speed": 100
+                },
+                {
+                    "x": 255,
+                    "y": -212,
+                    "altitude": 5,
+                    "speed": 100
+                },
+                {
+                    "x": 315,
+                    "y": -345,
+                    "altitude": 5,
+                    "speed": 100
+                }                
+            ]
+        },
+        {
+            "tasks_id" : "surveillance_uav_2_area_2",
+            "task_type" : "surveillance",
+            "areas_id" : 2,
+            "uavs_id" : 2,
+            "start_time": 19893,
+            "duration": 32996,
+            "end_time": 52889,            
+            "area_waypoints" : [
+                {
+                    "x": 675,
+                    "y": -252,
+                    "altitude": 5,
+                    "speed": 100                    
+                },
+                {
+                    "x": 577,
+                    "y": -163,
+                    "altitude": 5,
+                    "speed": 100
+                }              
+            ]
+        },
+        {
+            "tasks_id" : "surveillance_uav_3_area_2",
+            "task_type" : "surveillance",
+            "areas_id" : 2,
+            "uavs_id" : 2,
+            "start_time": 19893,
+            "duration": 32996,
+            "end_time": 52889,            
+            "area_waypoints" : [
+                {
+                    "x": 675,
+                    "y": -252,
+                    "altitude": 5,
+                    "speed": 100                    
+                },
+                {
+                    "x": 580,
+                    "y": -132,
+                    "altitude": 5,
+                    "speed": 100
+                }              
+            ]
+        }
+    ]
+}

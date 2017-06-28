@@ -1,0 +1,13 @@
+codebook                Codebook
+complex.shapes          Shape Signatures of Fish, Glasses, and Bottles
+entropyHeuristic        Minimum Entropy Heuristic (MinE)
+hellinger.distance      Codebook Dissimliarities
+loo1nn                  Leave-one-out One-nearest-neighbor Evaluation
+mdsPlot                 Multidimensional Scaling Plot
+pdc-package             Permutation Distribution Clustering
+pdcDist                 Permutation Distribution Clustering Distance
+                        Matrix
+pdclust                 Permutation Distribution Clustering
+rasterPlot              Dendrogram Plot with Images
+star.shapes             Shape Signatures of Stars
+traceImage              Shape Tracing of an Image

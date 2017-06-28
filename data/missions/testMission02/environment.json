@@ -1,0 +1,143 @@
+{
+  "id" : 0,
+  "bounds": {
+    "upperLeftCorner": {
+      "x": -10,
+      "y": 0
+    },
+    "downRightCorner": {
+      "x": 430,
+      "y": -160
+    }
+  },
+  "areas": [
+    {
+      "areas_id": 1,
+      "vertices": [
+        {
+          "x": 32,
+          "y": -68
+        },
+        {
+          "x": 149,
+          "y": -68
+        },
+        {
+          "x": 149,
+          "y": -135
+        },
+        {
+          "x": 32,
+          "y": -135
+        }
+      ],
+      "max_altitude": 3,
+      "min_altitude": 0.5,
+      "entry_point": {
+        "x": 32,
+        "y": -68
+      },
+      "exit_point": {
+        "x": 32,
+        "y": -135
+      }
+    }
+  ],
+  "noflight_zones": [
+    {
+      "noflight_zones_id": 1,
+      "vertices": [
+        {
+          "x": 27,
+          "y": -36.8
+        },
+        {
+          "x": 121,
+          "y": -32
+        },
+        {
+          "x": 173,
+          "y": -36
+        },
+        {
+          "x": 176,
+          "y": -58.3
+        },
+        {
+          "x": 119,
+          "y": -61.5
+        },
+        {
+          "x": 34,
+          "y": -49.6
+        }
+      ],
+      "max_altitude": 20
+    }
+  ],
+  "airports": [
+    {
+      "airports_id": 1,
+      "position": {
+        "x": 127,
+        "y": -4
+      }
+    }
+  ],
+  "refueling_stations": [
+    {
+      "refueling_stations_id": 1,
+      "position": {
+        "x": 3,
+        "y": -75.8
+      },
+      "fuel_capacity": 1000,
+      "refueling_speed": 10
+    }
+  ],
+  "gcss": [
+    {
+      "gcss_id": 1,
+      "position": {
+        "x": 54,
+        "y": -2
+      },
+      "within_range": 500
+    }
+  ],
+  "uavs": [
+    {
+      "uavs_id": 1,
+      "gcss_id": 1,
+      "airports_id": 1,
+      "max_altitude": 10,
+      "min_altitude": 0.3,
+      "max_speed": 120,
+      "min_speed": 90,
+      "max_flight_time": 36000,
+      "within_range": 220,
+      "max_fuel": 250,
+      "fuel_consume": 0.2,
+      "fuel": 54.8,
+      "status": "idle",
+      "payload": [		
+        {
+          "payload_id": 1,
+          "payload_type": "camera",
+          "camera_type": "infrared_sensor",
+          "focal_length": 50,
+          "lens_ratio": 25,
+          "modes": [
+            "manual",
+            "video-tracking"  
+          ]
+        },
+        {
+          "payload_id" : 2,
+          "payload_type" : "radar",
+          "ratio" : 20
+        }
+      ]
+    }
+  ]
+}

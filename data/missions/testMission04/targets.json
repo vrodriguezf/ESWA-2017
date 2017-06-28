@@ -1,0 +1,45 @@
+{
+  "id" : 4,
+  "targets": [
+    {
+      "targets_id": 1,
+      "type" : "enemy",
+      "position": {
+        "x": 200,
+        "y": -280
+      },
+      "areas_id": 1,
+      "speed": 30
+    },
+    {
+      "targets_id": 2,
+      "type" : "enemy",
+      "position": {
+        "x": 160,
+        "y": -212
+      },
+      "areas_id": 1,
+      "speed": 50
+    },
+    {
+      "targets_id": 3,
+      "type" : "enemy",
+      "position": {
+        "x": 680,
+        "y": -82
+      },
+      "areas_id": 2,
+      "speed": 25
+    },
+    {
+      "targets_id": 4,
+      "type" : "enemy",
+      "position": {
+        "x": 570,
+        "y": -324
+      },
+      "areas_id": 2,
+      "speed": 45
+    }    
+  ]
+}

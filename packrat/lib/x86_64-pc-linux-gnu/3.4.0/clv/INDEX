@@ -1,0 +1,29 @@
+cls.attrib              Mean, cluster size and center - cluster
+                        utilities
+cls.scatt.data          Intercluster distances and intracluster
+                        diameters - Internal Measures
+cls.set.section         Section of two subsets - External Measure
+                        utilities
+cls.stab.sim.ind        Cluster Stability - Similarity Index and
+                        Pattern-wise Stability Approaches
+cls.stab.sim.ind.usr    Cluster Stability - Similarity Index and
+                        Pattern-wise Stability Approaches with User
+                        Defined Cluster Algorithms
+clv.Davies.Bouldin      Davies-Bouldin Index - Internal Measure
+clv.DensBw              Inter-cluster density - Internal Measure
+clv.Dis                 Total separation between clusters - Internal
+                        Measure
+clv.Dunn                Dunn Index - Internal Measure
+clv.SD                  SD, SDbw - Internal Measures
+clv.Scatt               Average scattering for clusters - Internal
+                        Measure
+confusion.matrix        Confusion Matrix - External Measures, Cluster
+                        Stability
+connectivity            Connectivity Index - Internal Measure
+dot.product             Cosine similarity measure - External Measure,
+                        Cluster Stability
+similarity.index        Similarity index based on confusion matrix -
+                        External Measure, Cluster Stability
+std.ext                 Standard External Measures: Rand index, Jaccard
+                        coefficient etc.
+wcls.matrix             Matrix Cluster Scatter Measures

@@ -1,0 +1,60 @@
+.add.extension          Associate a reader function with an extension.
+ProjectTemplate         Automates the creation of new statistical
+                        analysis projects.
+arff.reader             Read the Weka file format.
+cache                   Cache a data set for faster loading.
+cache.name              Translate a variable name into a file name for
+                        caching.
+cache.project           Cache a project's data sets in binary format.
+clean.variable.name     Translate a file name into a valid R variable
+                        name.
+create.project          Create a new project.
+csv.reader              Read a comma separated values (.csv) file.
+csv2.reader             Read a semicolon separated values (.csv2) file.
+db.reader               Read a SQlite3 database with a (.db) file
+                        extension.
+dbf.reader              Read an XBASE file with a .dbf file extension.
+default.config          Default configuration
+epiinfo.reader          Read an Epi Info file with a .rec file
+                        extension.
+file.reader             Read an arbitrary file described in a .file
+                        file.
+get.project             Show information about the current project.
+load.project            Automatically load data and packages for a
+                        project.
+migrate.project         Migrates a project from a previous version of
+                        ProjectTemplate
+mp3.reader              Read an MP3 file with a .mp3 file extension.
+mtp.reader              Read a Minitab Portable Worksheet with an .mtp3
+                        file extension.
+new.config              Configuration for new projects
+octave.reader           Read an Octave file with a .m file extension.
+ppm.reader              Read a PPM file with a .ppm file extension.
+preinstalled.readers    Maps file types to the reader functions used to
+                        autoload them.
+r.reader                Read an R source file with a .R file extension.
+rdata.reader            Read an RData file with a .rdata or .rda file
+                        extension.
+reload.project          Reload a project from scratch.
+require.package         Require a package for use in the project
+run.project             Run all of the analyses in the 'src' directory.
+show.project            Show information about the current project.
+spss.reader             Read an SPSS file with a .sav file extension.
+sql.reader              Read a database described in a .sql file.
+stata.reader            Read a Stata file with a .stata file extension.
+stub.tests              Generate unit tests for your helper functions.
+systat.reader           Read a Systat file with a .sys or .syd file
+                        extension.
+test.project            Run all unit tests for this project.
+translate.dcf           Read a DCF file into an R list.
+tsv.reader              Read a tab separated values (.tsv or .tab)
+                        file.
+url.reader              Read a remote file described in a .url file.
+wsv.reader              Read a whitespace separated values (.wsv or
+                        .txt) file.
+xls.reader              Read an Excel 2004 file with a .xls file
+                        extension.
+xlsx.reader             Read an Excel 2007 file with a .xlsx file
+                        extension.
+xport.reader            Read an XPort file with a .xport file
+                        extension.

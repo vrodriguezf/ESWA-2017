@@ -1,0 +1,39 @@
+ListPartition-class     ~ Class: ListPartition ~
+LongData-class          ~ Class: LongData ~
+LongData3d-class        ~ Class: LongData3d ~
+MAX_CLUSTERS            ~ Constants ~
+ParLongData-class       ~ Class: ParLongData ~
+ParWindows-class        ~ Class: ParWindows ~
+Partition-class         ~ Class: Partition ~
+artificialJointLongData
+                        ~ Data: artificialJointLongData ~
+artificialLongData      ~ Data: artificialLongData ~
+distFrechet             ~ Function: Frechet distance ~
+expandParLongData       ~ Function: expandParLongData ~
+imputation              ~ Function: imputation ~
+initializePartition     ~ Function: initializePartition ~
+longData                ~ Function: longData ~
+longData3d              ~ Function: longData3d ~
+longDataFrom3d          ~ Function: longDataFrom3d ~
+longDataTo3d            ~ Function: longDataTo3d ~
+longitudinalData-package
+                        ~ Package overview: longitudinalData ~
+makeLatexFile           ~ Function: makeLatexFile ~
+ordered                 ~ Function: ordered(ListPartition) ~
+parLongData             ~ Function: parLongData, parTraj and parMean~
+parWindows              ~ Function: parWindows ~
+partition               ~ Function: partition ~
+plot3dPdf               ~ Function: plot3dPdf for LongData ~
+plotAllCriterion        ~ Function: plotAllCriterion ~
+plotCriterion           ~ Function: plotCriterion ~
+plotTrajMeans,LongData
+                        ~ Function: plotTrajMeans for LongData ~
+plotTrajMeans3d         ~ Function: plotTrajMeans3d for LongData3d ~
+qualityCriterion        ~ Function: qualityCriterion ~
+regroup                 ~ Function: regroup ~
+reshapeLongToWide       ~ Function: longToWide (or reshapeWide) ~
+reshapeWideToLong       ~ Function: wideToLong (or reshapeWideToLong) ~
+restoreRealData         ~ Function: restoreRealData ~
+saveTrianglesAsASY      ~ Function: saveTrianglesAsASY ~
+scale                   ~ Function: scale for LongData ~
+windowsCut              ~ Function: windowsCut ~

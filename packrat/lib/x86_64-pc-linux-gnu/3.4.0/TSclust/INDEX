@@ -1,0 +1,44 @@
+TSclust                 Package for Time Series Clustering.
+cluster.evaluation      Clustering Evaluation Index Based on Known
+                        Ground Truth
+diss                    TSclust Dissimilarity Computation
+diss.ACF                Autocorrelation-based Dissimilarity
+diss.AR.LPC.CEPS        Dissimilarity Based on LPC Cepstral
+                        Coefficients
+diss.AR.MAH             Model-based Dissimilarity Proposed by Maharaj
+                        (1996, 2000)
+diss.AR.PIC             Model-based Dissimilarity Measure Proposed by
+                        Piccolo (1990)
+diss.CDM                Compression-based Dissimilarity measure
+diss.CID                Complexity-Invariant Distance Measure For Time
+                        Series
+diss.COR                Correlation-based Dissimilarity
+diss.CORT               Dissimilarity Index Combining Temporal
+                        Correlation and Raw Values Behaviors
+diss.DTWARP             Dynamic Time Warping Distance
+diss.DWT                Dissimilarity for Time Series Based on Wavelet
+                        Feature Extraction
+diss.EUCL               Euclidean Distance
+diss.FRECHET            Frechet Distance
+diss.INT.PER            Integrated Periodogram Based Dissimilarity
+diss.MINDIST.SAX        Symbolic Aggregate Aproximation related
+                        functions
+diss.NCD                Normalized Compression Distance
+diss.PDC                Permutation Distribution Distance
+diss.PER                Periodogram Based Dissimilarity
+diss.PRED               Dissimilarity Measure Based on Nonparametric
+                        Forecast
+diss.SPEC.GLK           Dissimilarity based on the Generalized
+                        Likelihood Ratio Test
+diss.SPEC.ISD           Dissimilarity Based on the Integrated Squared
+                        Difference between the Log-Spectra
+diss.SPEC.LLR           General Spectral Dissimilarity Measure Using
+                        Local-Linear Estimation of the Log-Spectra
+electricity             Hourly Electricity Prices in the Spanish Market
+interest.rates          Long-Term Interest Rates from 1995 to 2012
+loo1nn.cv               Clustering Evaluation Index Based on
+                        Leave-one-out One-nearest-neighbor Evaluation
+paired.tseries          Pairs of Time Series from Different Domains
+pvalues.clust           Clustering Algorithm Based on p-values.
+synthetic.tseries       Synthetic Time Series for Clustering Performace
+                        Comparisons.

@@ -1,0 +1,355 @@
+{
+  "id" : 3,
+  "bounds": {
+    "upperLeftCorner": {
+      "x": 0,
+      "y": 0
+    },
+    "downRightCorner": {
+      "x": 800,
+      "y": -500
+    }
+  },
+  "areas": [
+    {
+      "areas_id": 1,
+      "vertices": [
+        {
+          "x": 140,
+          "y": -200
+        },
+        {
+          "x": 360,
+          "y": -200
+        },
+        {
+          "x": 360,
+          "y": -360
+        },
+        {
+          "x": 140,
+          "y": -360
+        }
+      ],
+      "max_altitude": 3,
+      "min_altitude": 0.5,
+      "entry_point": {
+        "x": 360,
+        "y": -200
+      },
+      "exit_point": {
+        "x": 140,
+        "y": -360
+      }
+    },
+    {
+      "areas_id": 2,
+      "vertices": [
+        {
+          "x": 550,
+          "y": -60
+        },
+        {
+          "x": 700,
+          "y": -60
+        },
+        {
+          "x": 700,
+          "y": -350
+        },
+        {
+          "x": 550,
+          "y": -350
+        }
+      ],
+      "max_altitude": 3,
+      "min_altitude": 0.5,
+      "entry_point": {
+        "x": 550,
+        "y": -60
+      },
+      "exit_point": {
+        "x": 700,
+        "y": -350
+      }
+    }    
+  ],
+  "noflight_zones": [
+    {
+      "noflight_zones_id": 1,
+      "vertices": [
+        {
+          "x": 242,
+          "y": -77
+        },
+        {
+          "x": 400,
+          "y": -77
+        },
+        {
+          "x": 400,
+          "y": -156
+        },
+        {
+          "x": 215,
+          "y": -156
+        }
+      ],
+      "max_altitude": 20
+    },
+	
+	{
+      "noflight_zones_id": 2,
+      "vertices": [
+        {
+          "x": 185,
+          "y": -112
+        },
+        {
+          "x": 116,
+          "y": -188
+        },
+        {
+          "x": 120,
+          "y": -290
+        },
+        {
+          "x": 50,
+          "y": -277
+        },
+        {
+          "x": 68,
+          "y": -110
+        }
+      ],
+      "max_altitude": 20
+    },
+  {
+      "noflight_zones_id": 3,
+      "vertices": [
+        {
+          "x": 454,
+          "y": -339
+        },
+        {
+          "x": 540,
+          "y" : -339
+        },
+        {
+          "x": 570,
+          "y": -425
+        },
+        {
+          "x": 445,
+          "y": -416
+        }
+      ],
+      "max_altitude": 20
+    },
+    {
+      "noflight_zones_id": 4,
+      "vertices": [
+        {
+          "x": 631,
+          "y": -362
+        },
+        {
+          "x": 710,
+          "y" : -357
+        },
+        {
+          "x": 708,
+          "y": -265
+        },
+        {
+          "x": 740,
+          "y": -265
+        },
+        {
+          "x": 740,
+          "y": -385
+        },
+        {
+          "x": 631,
+          "y": -385          
+        }
+      ],
+      "max_altitude": 20
+    }
+  ],
+  "airports": [
+    {
+      "airports_id": 1,
+      "position": {
+        "x": 300,
+        "y": -25
+      }
+    },
+    {
+      "airports_id": 2,
+      "position": {
+        "x": 66,
+        "y": -438
+      }
+    },
+    {
+      "airports_id": 3,
+      "position": {
+        "x": 687,
+        "y": -442
+      }
+    }    
+  ],
+  "refueling_stations": [
+    {
+      "refueling_stations_id": 1,
+      "position": {
+        "x": 320,
+        "y": -190
+      },
+      "fuel_capacity": 500,
+      "refueling_speed": 10
+    },   
+	{
+      "refueling_stations_id": 2,
+      "position": {
+        "x": 25,
+        "y": -300
+      },
+      "fuel_capacity": 700,
+      "refueling_speed": 10
+    },
+    {
+      "refueling_stations_id": 3,
+      "position": {
+        "x": 755,
+        "y": -147
+      },
+      "fuel_capacity": 1000,
+      "refueling_speed": 10
+    },
+    {
+      "refueling_stations_id": 4,
+      "position": {
+        "x": 453,
+        "y": -291
+      },
+      "fuel_capacity": 600,
+      "refueling_speed": 10
+    } 
+  ],
+  
+  "gcss": [
+    {
+      "gcss_id": 1,
+      "position": {
+        "x": 200,
+        "y": -2
+      },
+      "within_range": 500
+    }
+  ],
+  "uavs": [
+    {
+      "uavs_id": 1,
+      "gcss_id": 1,
+      "airports_id": 1,
+      "max_altitude": 10,
+      "min_altitude": 0.3,
+      "max_speed": 120,
+      "min_speed": 90,
+      "max_flight_time": 36000,
+      "within_range": 220,
+      "max_fuel": 250,
+      "fuel_consume": 0.2,
+      "fuel": 130,
+      "status": "idle",
+      "payload": [		
+        {
+          "payload_id": 1,
+          "payload_type": "camera",
+          "camera_type": "infrared_sensor",
+          "focal_length": 50,
+          "lens_ratio": 28,
+          "modes": [
+            "manual",
+            "video-tracking"  
+          ]
+        },
+        {
+          "payload_id" : 2,
+          "payload_type" : "radar",
+          "ratio" : 27
+        }
+      ]
+    },
+    {
+      "uavs_id": 2,
+      "type" : 1,
+      "gcss_id": 1,
+      "airports_id": 2,
+      "max_altitude": 10,
+      "min_altitude": 0.3,
+      "max_speed": 130,
+      "min_speed": 100,
+      "max_flight_time": 36000,
+      "within_range": 220,
+      "max_fuel": 220,
+      "fuel_consume": 0.2,
+      "fuel": 220,
+      "status": "idle",
+      "payload": [    
+        {
+          "payload_id": 1,
+          "payload_type": "camera",
+          "camera_type": "infrared_sensor",
+          "focal_length": 50,
+          "lens_ratio": 28,
+          "modes": [
+            "manual",
+            "video-tracking"  
+          ]
+        },
+        {
+          "payload_id" : 2,
+          "payload_type" : "radar",
+          "ratio" : 20
+        }
+      ]
+    },
+    {
+      "uavs_id": 3,
+      "type" : 2,
+      "gcss_id": 1,
+      "airports_id": 3,
+      "max_altitude": 10,
+      "min_altitude": 0.3,
+      "max_speed": 110,
+      "min_speed": 80,
+      "max_flight_time": 36000,
+      "within_range": 220,
+      "max_fuel": 300,
+      "fuel_consume": 0.2,
+      "fuel": 220,
+      "status": "idle",
+      "payload": [    
+        {
+          "payload_id": 1,
+          "payload_type": "camera",
+          "camera_type": "infrared_sensor",
+          "focal_length": 50,
+          "lens_ratio": 28,
+          "modes": [
+            "manual",
+            "video-tracking"  
+          ]
+        },
+        {
+          "payload_id" : 2,
+          "payload_type" : "radar",
+          "ratio" : 25
+        }
+      ]
+    }
+  ]
+}

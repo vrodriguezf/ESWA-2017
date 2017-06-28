@@ -1,0 +1,281 @@
+as.character.mongo.oid
+                        Convert a mongo.oid object to a string
+mongo                   The mongo (database connection) class
+mongo.add.user          Add a user and password
+mongo.aggregation       Aggregation pipeline
+mongo.authenticate      Autherticate a user and password
+mongo.binary.binary     BSON binary data subtype constant for standard
+                        binary data
+mongo.binary.function   BSON binary data subtype constant for function
+                        data
+mongo.binary.md5        BSON binary data subtype constant for md5 data
+mongo.binary.old        BSON binary data subtype constant for old
+                        format data
+mongo.binary.user       BSON binary data subtype constant for user data
+mongo.binary.uuid       BSON binary data subtype constant for uuid data
+mongo.bson              The mongo.bson class
+mongo.bson.array        BSON data type constant for an array
+mongo.bson.binary       BSON data type constant for a binary data value
+mongo.bson.bool         BSON data type constant for a bool value
+mongo.bson.buffer       The mongo.bson.buffer class
+mongo.bson.buffer.append
+                        Append a name/value pair into a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.bool
+                        Append a boolean field onto a mongo.bson.buffer
+mongo.bson.buffer.append.bson
+                        Append a mongo.bson object into a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.code
+                        Append a code field onto a mongo.bson.buffer
+mongo.bson.buffer.append.code.w.scope
+                        Append a code field with a scope onto a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.complex
+                        Append a double field onto a mongo.bson.buffer
+mongo.bson.buffer.append.double
+                        Append a double field onto a mongo.bson.buffer
+mongo.bson.buffer.append.element
+                        Append a mongo.bson.iterator's element into a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.int
+                        Append an integer field onto a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.list
+                        Append a list onto a mongo.bson.buffer
+mongo.bson.buffer.append.long
+                        Append a long valued field onto a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.null
+                        Append a double field onto a mongo.bson.buffer
+mongo.bson.buffer.append.object
+                        Append an R object onto a mongo.bson.buffer
+mongo.bson.buffer.append.oid
+                        Append a OID into a mongo.bson.buffer
+mongo.bson.buffer.append.raw
+                        Append a raw (binary) field onto a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.regex
+                        Append a timestamp value into a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.string
+                        Append a string field onto a mongo.bson.buffer
+mongo.bson.buffer.append.symbol
+                        Append a symbol field onto a mongo.bson.buffer
+mongo.bson.buffer.append.time
+                        Append a time value into a mongo.bson.buffer
+mongo.bson.buffer.append.timestamp
+                        Append a timestamp value into a
+                        mongo.bson.buffer
+mongo.bson.buffer.append.undefined
+                        Append a undefined field onto a
+                        mongo.bson.buffer
+mongo.bson.buffer.create
+                        Create an new mongo.bson.buffer object
+mongo.bson.buffer.finish.object
+                        Finish a subobject or array within a
+                        mongo.bson.buffer
+mongo.bson.buffer.size
+                        Get the size of a mongo.bson.buffer object
+mongo.bson.buffer.start.array
+                        Start an array within a mongo.bson.buffer
+mongo.bson.buffer.start.object
+                        Start a subobject within a mongo.bson.buffer
+mongo.bson.code         BSON data type constant for a code value
+mongo.bson.code.w.scope
+                        BSON data type constant for a code with scope
+                        value
+mongo.bson.date         BSON data type constant for a date value
+mongo.bson.dbref        BSON data type constant for a dbref value
+mongo.bson.destroy      Destroy a mongo.bson object
+mongo.bson.double       BSON data type constant for a double value
+mongo.bson.empty        Create an empty mongo.bson object
+mongo.bson.eoo          BSON data type constant for 'End Of Object'
+mongo.bson.find         Find a field within a mongo.bson object by name
+mongo.bson.from.JSON    Convert JSON to BSON Object
+mongo.bson.from.buffer
+                        Convert a mongo.bson.buffer object to a
+                        mongo.bson object
+mongo.bson.from.df      Convert a data.frame to a mongo.bson object
+mongo.bson.from.list    Convert a list to a mongo.bson object
+mongo.bson.int          BSON data type constant for a integer value
+mongo.bson.iterator     The mongo.bson.iterator class
+mongo.bson.iterator.create
+                        Create a mongo.bson.iterator object
+mongo.bson.iterator.key
+                        Return the key (name) of the field pointed to
+                        by an iterator
+mongo.bson.iterator.next
+                        Advance an iterator to the first or next field
+mongo.bson.iterator.type
+                        Get the type of data pointed to by an iterator
+mongo.bson.iterator.value
+                        Return the value of the field pointed to by an
+                        iterator
+mongo.bson.long         BSON data type constant for a long value
+mongo.bson.null         BSON data type constant for a null value
+mongo.bson.object       BSON data type constant for a subobject value
+mongo.bson.oid          BSON data type constant for a oid value
+mongo.bson.print        Display a mongo.bson object
+mongo.bson.regex        BSON data type constant for a regex value
+mongo.bson.size         Get the size of a mongo.bson object
+mongo.bson.string       BSON data type constant for a string value
+mongo.bson.symbol       BSON data type constant for a symbol value
+mongo.bson.timestamp    BSON data type constant for a timestamp value
+mongo.bson.to.Robject   Convert a mongo.bson object to an R object.
+mongo.bson.to.list      Convert a mongo.bson object to an R list
+                        object.
+mongo.bson.undefined    BSON data type constant for a undefined value
+mongo.bson.value        Return the value of a mongo.bson field
+mongo.code              The mongo.code class
+mongo.code.create       Create a mongo.code object
+mongo.code.w.scope      The mongo.code.w.scope class
+mongo.code.w.scope.create
+                        Create a mongo.code.w.scope object
+mongo.command           Issue a command to a database on MongoDB server
+mongo.count             Count records in a collection
+mongo.create            Create an object of class "mongo"
+mongo.cursor            The mongo.cursor class
+mongo.cursor.destroy    Release resources attached to a cursor
+mongo.cursor.next       Advance a cursor to the next record
+mongo.cursor.to.data.frame
+                        Convert Mongo Cursor Object to Data.Frame
+mongo.cursor.to.list    Convert Mongo Cursor Object to List so that
+                        each element of resulting list represents
+                        document in source collection.
+mongo.cursor.value      Fetch the current value of a cursor
+mongo.destroy           Destroy a MongoDB connection
+mongo.disconnect        Disconnect from a MongoDB server
+mongo.distinct          Get a vector of distinct values for keys in a
+                        collection
+mongo.drop              Drop a collection from a MongoDB server
+mongo.drop.database     Drop a database from a MongoDB server
+mongo.find              Find records in a collection
+mongo.find.all          Find records in a collection and returns one R
+                        data frame object
+mongo.find.await.data   mongo.find flag constant - await data
+mongo.find.cursor.tailable
+                        mongo.find flag constant - cursor tailable
+mongo.find.exhaust      mongo.find flag constant - exhaust
+mongo.find.no.cursor.timeout
+                        mongo.find flag constant - no cursor timeout
+mongo.find.one          Find one record in a collection
+mongo.find.oplog.replay
+                        mongo.find flag constant - oplog replay
+mongo.find.partial.results
+                        mongo.find flag constant - partial results
+mongo.find.slave.ok     mongo.find flag constant - slave ok
+mongo.get.database.collections
+                        Get a list of collections in a database
+mongo.get.databases     Get a list of databases from a MongoDB server
+mongo.get.err           Retrieve an connection error code from a mongo
+                        object
+mongo.get.hosts         Get a lists of hosts & ports as reported by a
+                        replica set master upon connection creation.
+mongo.get.last.err      Retrieve an server error code from a mongo
+                        connection object
+mongo.get.prev.err      Retrieve an server error code from a mongo
+                        connection object
+mongo.get.primary       Get the host & port of the server to which a
+                        mongo object is connected.
+mongo.get.server.err    Retrieve an server error code from a mongo
+                        connection object
+mongo.get.server.err.string
+                        Retrieve an server error code from a mongo
+                        connection object
+mongo.get.socket        Get the socket assigned to a mongo object by
+                        mongo.create().
+mongo.get.timeout       Get the timeout value of a mongo connection
+mongo.gridfile          The mongo.gridfile class
+mongo.gridfile.destroy
+                        Destroy a mongo.gridfile object
+mongo.gridfile.get.chunk
+                        Get a chunk of a mongo.gridfile
+mongo.gridfile.get.chunk.count
+                        Get the chunk count of a mongo.gridfile
+mongo.gridfile.get.chunk.size
+                        Get the chunk.size of a mongo.gridfile
+mongo.gridfile.get.chunks
+                        Get a cursor for a range of chunks in a
+                        mongo.gridfile
+mongo.gridfile.get.content.type
+                        Get the content type of a mongo.gridfile
+mongo.gridfile.get.descriptor
+                        Get the descriptor of a mongo.gridfile
+mongo.gridfile.get.filename
+                        Get the filename of a mongo.gridfile
+mongo.gridfile.get.length
+                        Get the length of a mongo.gridfile
+mongo.gridfile.get.md5
+                        Get the MD5 hash of a mongo.gridfile
+mongo.gridfile.get.metadata
+                        Get the metadata of a mongo.gridfile
+mongo.gridfile.get.upload.date
+                        Get the upload date of a mongo.gridfile
+mongo.gridfile.pipe     Pipe a mongo.gridfile to an R connection
+mongo.gridfile.read     Read raw data from a mongo.gridfile
+mongo.gridfile.seek     Seek to a position in a mongo.gridfile
+mongo.gridfile.writer   The mongo.gridfile.writer class
+mongo.gridfile.writer.create
+                        Create a mongo.gridfile.writer object
+mongo.gridfile.writer.finish
+                        Finish writing to a buffered GridFS file
+mongo.gridfile.writer.write
+                        Write raw data to a buffered GridFS file
+mongo.gridfs            The mongo.gridfs class
+mongo.gridfs.create     Create a mongo.gridfs object
+mongo.gridfs.destroy    Destroy a mongo.gridfs object
+mongo.gridfs.find       Find a GridFS file
+mongo.gridfs.remove.file
+                        Remove a file from a GridFS on a MongoDB server
+mongo.gridfs.store      Store raw data as a file in a GridFS
+mongo.gridfs.store.file
+                        Store a file into a GridFS on a MongoDB server
+mongo.index.TTLcreate   Add a time to live (TTL) index to a collection
+mongo.index.background
+                        mongo.index.create flag constant - background
+mongo.index.create      Add an index to a collection
+mongo.index.drop.dups   mongo.index.create flag constant - drop
+                        duplicate keys
+mongo.index.sparse      mongo.index.create flag constant - sparse
+mongo.index.unique      mongo.index.create flag constant - unique keys
+mongo.insert            Add record to a collection
+mongo.insert.batch      Add multiple records to a collection
+mongo.is.connected      Determine if a mongo object is connected to a
+                        MongoDB server
+mongo.is.master         Determine if a mongo connection object is
+                        connected to a master
+mongo.oid               The mongo.oid class
+mongo.oid.create        Create a mongo.oid object
+mongo.oid.from.string   Create a mongo.oid object ftom a string
+mongo.oid.print         Display a mongo.oid object
+mongo.oid.time          Get an Object ID's time
+mongo.oid.to.string     Convert a mongo.oid object to a string
+mongo.reconnect         Reconnect to a MongoDB server
+mongo.regex             The mongo.regex class
+mongo.regex.create      Create a mongo.regex object
+mongo.remove            Remove records from a collection
+mongo.rename            Rename a collection on a MongoDB server
+mongo.reset.err         Retrieve an server error code from a mongo
+                        connection object
+mongo.set.timeout       Set the timeout value on a mongo connection
+mongo.shorthand         Define shorthand for BSON and GridFS
+mongo.simple.command    Issue a simple.command to a database on MongoDB
+                        server
+mongo.symbol            The mongo.symbol class
+mongo.symbol.create     Create a mongo.symbol object
+mongo.timestamp         The mongo.timestamp class
+mongo.timestamp.create
+                        Create a mongo.timestamp object
+mongo.undefined         The mongo.undefined class
+mongo.undefined.create
+                        Create a mongo.undefined object
+mongo.update            Perform an update on a collection
+mongo.update.basic      mongo.update() flag constant for performing a
+                        basic update
+mongo.update.multi      mongo.update() flag constant for updating
+                        multiple records
+mongo.update.upsert     mongo.update() flag constant for an upsert
+print.mongo.bson        Display a mongo.bson object
+print.mongo.oid         Display a mongo.oid object
+zips                    zips Dataset

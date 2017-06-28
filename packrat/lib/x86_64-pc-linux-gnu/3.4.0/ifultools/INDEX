@@ -1,0 +1,51 @@
+ACVStoPACS              Computes partial autocorrelations from
+                        autocovariances
+aggregateData           Time series aggregation
+autoKey                 Automatic key placement
+autoText                Automatic text placement
+checkRange              Check the range of a numeric object
+checkScalarType         Check for scalar type and class
+checkVectorType         Check for vector type and class
+decibel                 Conversion to decibels
+em                      Typesetting unit
+gridOverlay             Add a grid over the existing plot
+ilogb                   Integer truncation of logb output
+isVectorAtomic          Tests whether an object is a vector or not
+itCall                  Thin itCall Wrapper to IFULTOOLS Symbols
+linearFit               Linear regression of a segmented time series
+linearSegmentation      Piecewise linear segmentation of a time series
+logScale                Logarithmically spaced scale vector generation
+mergeList               Merges the information from two lists
+mutilsDistanceMetric    L-p metric conversion
+mutilsFilterType        Converts wavelet filter string to MUTILS enum
+                        type
+mutilsFilterTypeContinuous
+                        Converts a continuous wavelet filter string to
+                        MUTILS enum type
+mutilsSDF               SDF evaluation over a discrete uniform grid of
+                        frequencies
+mutilsTransformPeakType
+                        Converts wavelet transform local peak type
+                        string to MUTILS enum type
+mutilsTransformType     Converts wavelet transform string to MUTILS
+                        enum type
+mutilsWSShrinkageFunction
+                        Converts wavelet shrinkage function to MUTILS
+                        enum type
+mutilsWSThresholdFunction
+                        Converts wavelet shrinkage theshold function to
+                        MUTILS enum type
+nextDyadic              Next integer power of 2
+ordinal                 Ordinal value conversion
+prettyPrintList         Prints a list of named objects
+properCase              Case conversion ala a proper noun
+rotateVector            Circularly vector rotation
+scaleData               Scale numeric data
+scaleZoom               Zoom in on a specified region of a data matrix
+solveODE                Numerical integration of ODEs
+sparsestQuadrant        Estimates sparsest quadrant in data set
+splitplot               Partitions plot space into rectangular grid
+stackPlot               Stack plot
+stringSize              Size of a character string in current font
+variance                Variance computation, usable in both S-PLUS and
+                        R

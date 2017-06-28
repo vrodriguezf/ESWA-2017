@@ -1,0 +1,57 @@
+The signalSeries class here is an abridged version of the class
+in S-PLUS; not all methods and capabilities are implemented.
+
+--------------------------------------------------
+---- Inheritance problem
+
+If you define any objects that inherit from signalSeries, you
+should copy the methods to the new class, e.g.
+  as.data.frame.myNewClass <- as.data.frame.signalSeries
+
+Background:
+Both S-PLUS and R have a pair of complementary bugs:
+	S3 methods ignore S4 inheritance
+	S4 methods ignore S3 inheritance
+
+signalSeries is an S4 class (defined by setClass, rather than
+by simply adding a class to an object).
+
+as.data.frame.signalSeries is an S3 method (defined by its name,
+rather than using setMethod).
+
+Here's an example of the inheritance being ignored:
+
+library(splus2R)
+setClass("signalSeriesPlus",
+  representation(
+                 "signalSeries",
+                 extra = "ANY")
+         )
+temp1 <- new("signalSeries")
+temp2 <- new("signalSeriesPlus")
+
+> as.data.frame(temp1)
+[1] V1
+<0 rows> (or 0-length row.names)
+> as.data.frame(temp2)
+Error in as.data.frame.default(temp2) : 
+  cannot coerce class "signalSeriesPlus" into a data.frame
+
+as.data.frame should have called as.data.frame.signalSeries;
+it didn't, because it ignored the inheritance.
+
+
+Here's a workaround:
+
+> as.data.frame.signalSeriesPlus <- as.data.frame.signalSeries
+> as.data.frame(temp2)
+[1] V1
+<0 rows> (or 0-length row.names)
+
+Another workaround, and the "right thing to do", is:
+  as.data.frame.signalSeries <- (current definition)
+  setMethod("as.data.frame", "signalSeries", as.data.frame.signalSeries)
+  rm(as.data.frame.signalSeries) # optional, but avoids confusion
+to turn the current S3 method into an S4 method (and remove the S3 method).
+
+However, that makes as.data.frame to run slower.  It isn't worth it.

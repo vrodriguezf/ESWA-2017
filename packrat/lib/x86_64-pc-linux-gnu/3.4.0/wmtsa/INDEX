@@ -1,0 +1,79 @@
+D.statistic             D-statistic
+D.table                 Critical D-statistic table generation
+D.table.critical        Critical D-Statistic Table
+atomclock               Cesium Beam Atomic Clock Data
+create.signalSeries     Converts various time series to an object of
+                        class
+crystal.names           Generic function for obtaining crystal names of
+                        wavelet transform objects
+ecg                     Electrocardiogram Data
+eda.plot                Generic function for generating extended data
+                        analysis plots
+fdp045                  Fractional Difference Process Data
+holderSpectrum          The Holder spectrum of a time series
+make.signal             Test signal generation
+nile                    Yearly Nile river level minima
+ocean                   Vertical Shear Ocean Data
+oceansdf                SDF for ocean series
+reconstruct             Reconstruction (inverse transform) of various
+                        wavelet transforms
+wavBestBasis            DWPT Best basis selection
+wavBootstrap            Adaptive wavelet-based bootstrapping
+wavBoundary             Wavelet transform boundary coefficent
+                        identification
+wavCWT                  Continuous wavelet transform
+wavCWTFilters           Frequency response of continuous wavelet
+                        transform filters
+wavCWTPeaks             Peak detection in a time series via the CWT
+wavCWTTree              Tree map of continuous wavelet transform
+                        extrema
+wavDWPT                 The discrete wavelet packet transform (DWPT)
+wavDWPTWhitest          Seeks the whitest transform of a discrete
+                        wavelet packet transform (DWPT)
+wavDWT                  The discrete wavelet transform (DWT)
+wavDaubechies           Daubechies wavelet and scaling filters
+wavDictionary           Constructor function for objects of class
+                        wavDictionary
+wavEDOF                 Equivalent degrees of freedom (EDOF) estimates
+                        for a chi-squared distribution
+wavFDP                  Class constructor for block- and time-dependent
+                        wavelet-based FD model parameter estimators
+wavFDPBand              Mid-octave spectral density function (SDF)
+                        estimation
+wavFDPBlock             Block-dependent estimation of fractionally
+                        differenced (FD) model parameters
+wavFDPSDF               Spectral density function for a fractionally
+                        differenced process
+wavFDPTime              Instantaneous estimation of fractionally
+                        differenced model parameters
+wavGain                 The gain functions for Daubechies wavelet and
+                        scaling filters
+wavIndex                Boundary and interior wavelet coefficient
+                        identification
+wavMODWPT               The maximal overlap discrete wavelet packet
+                        transform (MODWPT)
+wavMODWT                The maximal overlap discrete wavelet transform
+                        (MODWT)
+wavMRD                  Calculate the detail sequences for wavelet
+                        transform crystals
+wavMRDSum               Partial summation of a multiresolution
+                        decomposition
+wavMaxLevel             Maximum decomposition level
+wavPacketBasis          Extract wavelet packet basis from a DWPT
+wavPacketIndices        Wavelet packet node indices
+wavShift                Shifts wavelet transform coefficients for
+                        approximate zero phase alignment
+wavShrink               Nonlinear denoising via wavelet shrinkage
+wavSortCrystals         Sort wavelet transform crystal names
+wavStackPlot            Generic function for generating stacked plots
+wavStackPlot.default    Plot wavelet transform crystals
+wavTitle                Extract the name of the data used to generate
+                        objects of various wavelet classes
+wavTransform            Constructor function for objects of class
+                        wavTransform
+wavVar                  Discrete wavelet variance estimation
+wavVarConfidence        Wavelet variance confidence intervals
+wavVarTest              Homogeneity test for discrete wavelet transform
+                        crystals
+wavZeroPhase            Zero phase shift factors for Daubechies symmlet
+                        and coiflet filters

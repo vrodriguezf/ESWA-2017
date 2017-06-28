@@ -1,0 +1,15 @@
+{
+  "id" : 0,
+  "targets": [
+    {
+      "targets_id": 1,
+      "type" : "enemy",
+      "position": {
+        "x": 134,
+        "y": -131
+      },
+      "areas_id": 1,
+      "speed": 35
+    }
+  ]
+}

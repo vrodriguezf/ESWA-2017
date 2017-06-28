@@ -1,0 +1,4 @@
+useDynLib("infotheo")
+
+# Export all names
+exportPattern(".")
