@@ -16,10 +16,14 @@ http://www.sciencedirect.com/science/article/pii/S0957417416305851
 
 ## Usage
 
-The project structure has been created using the package *ProjectTemplate*. For more details about ProjectTemplate, see http://projecttemplate.net
+The project structure has been created using the R package *ProjectTemplate*. For more details about ProjectTemplate, see http://projecttemplate.net
 
-..* The input data can be found in the `cache` folder
-..* The output data can be found in the `output` folder
-..* Every analysis script can be found in the folder `src`.
-..* Do not execute file `src/ESWA_1-TimeSeriesMeasures.R` without previous permission to access the database.
+* The input data can be found in the `cache` folder
+* The output data can be found in the `output` folder
+* Every analysis script can be found in the folder `src`.
+* Do not execute file `src/ESWA_1-TimeSeriesMeasures.R` without previous permission to access the database.
+
+## Contact
+
+For any questions about the use of the code (which is currently in a bit of a mess) please contact me by email or add a new issue in this repository.
 
