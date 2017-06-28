@@ -20,9 +20,9 @@ oldDroneSnapsNs <- paste(db,"oldDS",sep=".")
 #
 dwrConn <- mongo.create(
   host = host, 
-  db="admin", 
-  username = "admin", 
-  password = "mongoPassword1620"
+  db="", 
+  username = "", 
+  password = ""
 )
 
 ##############################
