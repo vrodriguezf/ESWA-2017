@@ -3,6 +3,14 @@
 #
 # Valid clMethods: PAM,hclust
 #
+# TODO: Use the attributes "command" and "params" of the argument clustMethods
+#
+# Input
+#     dissMatrix: Dissimilarity matrix (a dist object or similar)
+#     clustMethods: List of clustering methods to apply. Right now, only "PAM" and "hclust" are valid
+#     K: Range of the number of clusters
+#     returnAllResults: Show the information of all the clustering methods, or only from the best one
+#
 ESWA_helper.clusteringValidation <- function (dissMatrix,
                                               clustMethods=list(c(name="PAM",command=pam,params=NULL)),
                                               K=2:8,
